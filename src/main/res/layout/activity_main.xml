@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/helloWorld" />
+
+    <Button
+        android:id="@+id/btnActivateRemoteControl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/btnActivateRemoteControl"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        android:onClick="changeText"
+        />
+
+    <Button
+        android:id="@+id/btnStopSystem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnStopSystem"
+        android:onClick="changeText"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:text="@string/red"
+            android:background="@drawable/red_button"
+            android:onClick="changeColor"
+            />
+
+        <Button
+            android:id="@+id/btnGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:text="@string/green"
+            android:background="@color/green"
+            android:onClick="changeColor"
+            />
+
+        <Button
+            android:id="@+id/btnBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:text="@string/blue"
+            android:background="@color/blue"
+            android:onClick="changeColor"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:drawableStart="@drawable/person"
+            android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HolaMundo</string>
+    <string name="helloWorld">Hello World!</string>
+    <string name="btnActivateRemoteControl">Activate remote</string>
+    <string name="btnStopSystem">Stop system</string>
+    <string name="green">green</string>
+    <string name="blue">blue</string>
+    <string name="red">red</string>
+    <string name="litsAdmin">Admin</string>
+    <string name="litsRemoteControlActivated">Remote control activated by</string>
+</resources>
